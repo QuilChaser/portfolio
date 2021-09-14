@@ -63,6 +63,9 @@ ul {
 }
 
 @media only screen and (min-width: 961px) {
+  .contacts {
+    flex-direction: row;
+  }
   .content {
     display: flex;
   }
