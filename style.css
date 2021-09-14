@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 
+.profile-pic {
+  width: 200px;
+  height: 200px;
+}
+
 .header {
   background-color: red;
+  display: flex;
 }
 
 .about {
@@ -22,9 +28,4 @@
 
 .footer {
   background-color: grey;
-}
-
-.profile-pic {
-  width: 200px;
-  height: 200px;
 }
