@@ -21,7 +21,7 @@ ul {
 }
 
 .header {
-  background-color: red;
+  background-color: #ccc;
   display: flex;
   flex-direction: column;
 }
