@@ -13,11 +13,28 @@ ul {
 .profile-pic {
   width: 150px;
   height: 150px;
+  margin: 10px;
 }
 
 .header {
   background-color: red;
   display: flex;
+  flex-direction: column;
+}
+
+.pic-name {
+  display: flex;
+  align-items: center;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.contacts * {
+  padding: .4em 0;
 }
 
 .about {
